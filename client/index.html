@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donsitech Chattie App</title>
+    
+    <!-- styles -->
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Scripts -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>  
+    
+</head>
+<body>
+    <div>
+        Sign Up | <a href='chat.html'> Enter Chat Room </a> 
+    </div>
+    <div class="container">
+    
+        <h1>Welcome to Donsitech Chattie App </h1>
+    
+        <div class="container wrapper">
+
+            <form class="well form-horizontal" id="contact_form">
+                <legend><center><h2><b> New User Registration Form</b></h2></center></legend>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullname" class="col-md-4 control-label"> Your fullname: </label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </span>
+                            <input type="text" placeholder="Your fullname" name="fullname" id="fullname" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="username" class="col-md-4 control-label"> Username: </label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-envelope"></i>
+                            </span>
+                            <input type="email" placeholder="Username" name="username" id="username" class="form-control">
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="Password" class="col-md-4 control-label"> Password: </label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </span>
+                            <input type="password" name="password" id="password" placeholder="Password" class="form-control">
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="display_name" class="col-md-4 control-label"> Your display name (Chat nickname): </label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </span>
+                            <input type="text" name="display_name" id="display_name" class="form-control">
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="status_msg" class="col-md-4 control-label"> Brief description of yourself: </label>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </span>
+                            <textarea placeholder="Say something about yourself..." name="status_msg" id="status_msg" class="form-control">
+                            </textarea>
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="submit" id='register' value="Register to Start Chatting" class='btn btn-primary' />
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+       
+    </div>
+</body>
+</html>
